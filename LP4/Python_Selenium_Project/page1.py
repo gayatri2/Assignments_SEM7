@@ -30,27 +30,6 @@ if email == "username@gmail.com" and password == "password":
 else:
     print("Login 1 failed!")
 
-# wait the ready state to be complete
-# WebDriverWait(driver=driver, timeout=10).until(
-#     lambda x: x.execute_script("return document.readyState === 'complete'")
-#
-# )
-# time.sleep(5)
-# error_message = "Incorrect username or password."
-# time.sleep(5)
-#
-# # get the errors (if there are)
-# errors = driver.find_elements(By.CLASS_NAME, "flash-error")
-# # print the errors optionally
-# # for e in errors:
-# #     print(e.text)
-# # if we find that error message within errors, then login is failed
-# if any(error_message in e.text for e in errors):
-#     print("[!] Login failed")
-# else:
-#     print("[+] Login successful")
-
-
 
 
 #TEST CASE 2
